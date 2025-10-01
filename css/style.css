@@ -85,12 +85,13 @@ nav a:hover, nav a:focus {
 .text-block {
      display: grid;
      text-align: center;
-     place-items: center;
+     height:fit-content;
+     align-self: center;
 }
 
 .text-block ul, .text-block ol {
      text-align: left;
-     margin: 0 auto;
+     margin: 0;
 }
 
 /* Add your media query here */
