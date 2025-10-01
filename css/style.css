@@ -27,7 +27,6 @@ nav a:hover, nav a:focus {
      display: grid;
      grid-template-columns: repeat(5, 1fr);
      gap: 13px;
-     /* box-sizing: border-box; */
 }
 
 /*Write selector/rule property to add the background image to the first div in the grid and place it in the grid. */
@@ -132,11 +131,11 @@ nav {
 .text-block {
      display: grid;
      text-align: center;
-     place-items: center;
      max-height: 235px;
      overflow: auto;
      align-self: center;
 }
+
 
 .text-block ul {
      text-align: left;
